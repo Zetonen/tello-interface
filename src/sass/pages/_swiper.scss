@@ -1,0 +1,26 @@
+.swiper {
+  width: calc(100% - 20px);
+  height: 80%;
+  color: #fff;
+  &-slide {
+    width: calc(((100vw - 150px)) / 3);
+    height: calc(((100vw - 150px)) / 3);
+
+    &__thumb {
+      margin-bottom: 30px;
+      border: 1px solid #fff;
+    }
+    &__icon {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+    &__title {
+      margin-bottom: 10px;
+      font-size: 30px;
+    }
+    &__text {
+      color: #c4c4c4;
+    }
+  }
+}

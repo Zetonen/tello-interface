@@ -1,3 +1,5 @@
+import './js/swipe';
+
 const refs = {
   modal: document.querySelector('.modal'),
   openModal: document.querySelector('.mode'),

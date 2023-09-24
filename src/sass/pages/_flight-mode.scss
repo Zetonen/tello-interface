@@ -19,7 +19,7 @@
     padding: 6px;
     background-color: transparent;
     border: 1px solid transparent;
-    fill: #ffffff ;
+    fill: #ffffff;
     &-icon {
       display: block;
       width: 30px;
@@ -30,11 +30,21 @@
     padding-top: 25px;
     padding-bottom: 20px;
     border-bottom: 1px solid #fff;
-    &-text{
-        font-size: 24px;
-        color: #ffffff;
-        text-transform: uppercase;
-        text-align: center;
+    &-text {
+      font-size: 24px;
+      color: #ffffff;
+      text-transform: uppercase;
+      text-align: center;
+    }
+  }
+  &__content {
+    height: calc(80dvh);
+    &-title {
+      margin-bottom: 30px;
+      font-size: 48px;
+      font-weight: 400;
+      color: #ffffff;
+      text-transform: uppercase;
     }
   }
 }
