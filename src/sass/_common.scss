@@ -18,3 +18,10 @@ button {
   color: inherit;
   background-color: transparent;
 }
+body.wrong{
+  height: 100dvh;
+  background-image:url('../img/display.webp') ;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
