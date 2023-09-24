@@ -1,3 +1,6 @@
+.hidden{
+    transform: translate(-105%);
+}
 main {
   position: absolute;
   top: 0;
@@ -40,7 +43,6 @@ main {
 }
 .btn {
   padding: 6px;
-  background-color: transparent;
   border: 1px solid #6991ef;
   border-radius: 50%;
   fill: #6991ef;

@@ -1,10 +1,40 @@
-.modal{
+.modal {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  padding-left: 20px;
+  z-index: 1;
+  background-color: #000;
+  transform: translateX(0);
+  transition: transform 300ms ease-in;
+  &.hidden {
+    transform: translateX(-105%);
+  }
+  &__close {
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    z-index: 1;
-    display: none;
-    background-color: #000;
+    top: 20px;
+    left: 30px;
+    padding: 6px;
+    background-color: transparent;
+    border: 1px solid transparent;
+    fill: #ffffff ;
+    &-icon {
+      display: block;
+      width: 30px;
+      height: 30px;
+    }
+  }
+  &__header {
+    padding-top: 25px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #fff;
+    &-text{
+        font-size: 24px;
+        color: #ffffff;
+        text-transform: uppercase;
+        text-align: center;
+    }
+  }
 }
