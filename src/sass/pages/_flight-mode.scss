@@ -22,16 +22,16 @@
     fill: #ffffff;
     &-icon {
       display: block;
-      width: 30px;
-      height: 30px;
+      width: 3dvh;
+      height: 3dvh;
     }
   }
   &__header {
-    padding-top: 25px;
-    padding-bottom: 20px;
+    padding-top: calc(3dvh + 4px);
+    padding-bottom: calc(3dvh - 2px);
     border-bottom: 1px solid #fff;
     &-text {
-      font-size: 24px;
+      font-size: 3dvh;
       color: #ffffff;
       text-transform: uppercase;
       text-align: center;
@@ -40,8 +40,8 @@
   &__content {
     height: calc(80dvh);
     &-title {
-      margin-bottom: 30px;
-      font-size: 48px;
+      margin-bottom: 3dvh;
+      font-size: 5dvh;
       font-weight: 400;
       color: #ffffff;
       text-transform: uppercase;
