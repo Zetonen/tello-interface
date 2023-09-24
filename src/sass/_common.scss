@@ -1,1 +1,8 @@
 @import '~node_modules/modern-normalize/modern-normalize.css';
+button {
+  margin: 0;
+  padding: 0;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+}
