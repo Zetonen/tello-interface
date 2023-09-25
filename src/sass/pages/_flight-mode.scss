@@ -6,7 +6,15 @@
   height: 100vh;
   padding-left: 20px;
   z-index: 1;
-  background-color: #000;
+  background: linear-gradient(#0000002a 0% 100%),
+    linear-gradient(
+      to right bottom,
+      #f2ff60,
+      #7ef791,
+      #00e3c8,
+      #00c7e7,
+      #33a5e1
+    );
   transform: translateX(0);
   transition: transform 300ms ease-in;
   &.hidden {
