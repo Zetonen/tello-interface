@@ -1,5 +1,5 @@
-.hidden{
-    transform: translate(-105%);
+.hidden {
+  transform: translate(-105%);
 }
 main {
   position: absolute;
@@ -8,7 +8,7 @@ main {
   width: 100vw;
   height: 100dvh;
   padding: 20px 60px 50px;
-  background-color: #000000;
+  background-image: url(../img/bg.jpg);
 }
 .container {
   display: flex;
